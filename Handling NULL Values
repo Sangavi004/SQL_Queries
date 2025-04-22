@@ -1,0 +1,5 @@
+//Write a query to retrieve book_id, title, author and published_year of the books which have NULL rating for their books.
+
+select book_id,title,author,published_year
+from Library
+where rating is NULL;
